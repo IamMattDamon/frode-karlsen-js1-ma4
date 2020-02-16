@@ -8,7 +8,7 @@ function validateForm(event) {
     event.preventDefault();
     console.log("The form was submitted");
 
-    const firstName = document.querySelector("firstName");
+    const firstName = document.querySelector("#firstName");
     const firstNameError = document.querySelector("#firstNameError");
     const firstNameValue = firstName.value;
 
