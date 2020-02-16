@@ -1,6 +1,6 @@
 // JS1 - Module 4 - MA4 - Question 2
 
-const callUrl = "https://api.rawg.io/api/creators";
+const callUrl = "https://api.rawg.io/api/games";
 
 fetch(callUrl)
     .then(function(response) {
